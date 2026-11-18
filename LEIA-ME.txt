@@ -1,0 +1,30 @@
+﻿CONSUMO DE CALORIAS POR GRAU DE PROCESSAMENTO - PARANA, 15 A 29 ANOS
+=====================================================================
+
+O QUE E
+App (Streamlit) que le um arquivo .xlsx de resultados ja calculados e mostra
+graficos e tabelas. Ele NAO processa microdados nem classifica alimentos.
+O arquivo de resultados e gerado pelo script processar_microdados.py.
+
+COMO ABRIR
+1. Instale o Python 3.12 ou mais novo (python.org). Na instalacao, marque
+   "Add Python to PATH".
+2. De um duplo clique em iniciar.bat. Na primeira vez ele instala as
+   dependencias (precisa de internet).
+3. O app abre no navegador (endereco http://localhost:8501).
+   Para fechar, feche a janela preta.
+
+ONDE COLOCAR O ARQUIVO DE RESULTADOS
+Guarde o arquivo (ex.: resultados_NOVA_PR_15a29.xlsx) na mesma pasta do app.py,
+para ficar facil de achar. O app nao procura o arquivo sozinho: com o app
+aberto, clique no botao de enviar arquivo da barra lateral ("Browse files")
+e escolha o .xlsx.
+
+ARQUIVOS DESTA PASTA
+- app.py ............... o aplicativo
+- requirements.txt ..... dependencias, com as versoes testadas
+- iniciar.bat .......... instala e abre o app (Windows)
+- gerar_testes.py ...... cria a pasta testes/ com planilhas de teste
+                         (python gerar_testes.py)
+- app_versao_anterior.py  versao anterior do app (aquisicao domiciliar);
+                          nao e usada
